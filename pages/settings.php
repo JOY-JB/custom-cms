@@ -3,10 +3,10 @@
       <div class="row">
         <div class="col-md-3 pt-0">
           <div class="list-group list-group-flush account-settings-links">
-            <a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#account-general">General</a>
-            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#account-change-password">Change password</a>
-            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#account-info">Privacy</a>
-            <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#account-social-links">Social links</a>
+            <a class="list-group-item list-group-item-action m-2 active" data-bs-toggle="list" href="#account-general">General</a>
+            <a class="list-group-item list-group-item-action m-2" data-bs-toggle="list" href="#account-change-password">Change password</a>
+            <a class="list-group-item list-group-item-action m-2" data-bs-toggle="list" href="#account-info">Privacy</a>
+            <a class="list-group-item list-group-item-action m-2" data-bs-toggle="list" href="#account-social-links">Social links</a>
             
               <a class="list-group-item dropdown-toggle" data-bs-toggle="collapse" href="#setting-dropdown">sub settings</a>
 

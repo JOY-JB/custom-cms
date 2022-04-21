@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="../vendors/typicons/typicons.css" />
     <link rel="stylesheet" href="../vendors/simple-line-icons/css/simple-line-icons.css" />
     <link rel="stylesheet" href="../vendors/css/vendor.bundle.base.css" />
+    <link rel="stylesheet" href="../vendors/select2/select2.min.css" />
     
     <!-- endinject -->
     <!-- Plugin css for this page -->
@@ -27,17 +28,19 @@
     <!-- endinject -->
     <link rel="shortcut icon" href="../images/favicon.png" />
 
+    
+
     <!-- Drop Zone css -->
     <link rel="stylesheet" href="https://unpkg.com/dropzone@5/dist/min/dropzone.min.css" type="text/css" />
 
   </head>
 
-  <body>
+  <body class="sidebar-dark">
     <div class="container-scroller">
       <!-- partial:../partials/_navbar.html -->
       <?php include "_navbar.php" ?>
       <!-- partial -->
-      <div class="container-fluid page-body-wrapper">
+      <div class="container-fluid page-body-wrapper pt-0">
         <!-- partial:../partials/_sidebar.html -->
         <?php include "_sidebar.php" ?>
         <!-- partial -->
@@ -59,7 +62,9 @@
               <?php // include "../pages/user-view.php" ?>
               <?php // include "../pages/product-add.php" ?>
               <?php // include "../pages/product-list.php" ?>
-              <?php  include "../pages/settings.php" ?>
+              <?php // include "../pages/settings.php" ?>
+              <?php // include "../pages/addProduct.php" ?>
+              <?php  include "../pages/addPurchase.php" ?>
             
           </div>
           <!-- content-wrapper ends -->
@@ -72,15 +77,21 @@
       <!-- page-body-wrapper ends -->
     </div>
     <!-- container-scroller -->
-    <!-- plugins:js -->
+    
+    <!-- add jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    
+        <!-- plugins:js -->
     <script src="../vendors/js/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page -->
     <script src="../vendors/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+
+    <!-- select2 -->
+    <script src="../vendors/select2/select2.min.js"></script>
     <!-- End plugin js for this page -->
-    
-    <!-- add jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 
     <!-- inject:js -->
     <script src="../js/off-canvas.js"></script>
@@ -90,6 +101,7 @@
     <script src="../js/todolist.js"></script>
     <script src="../js/tinymce/tinymce.min.js"></script>
     <script src="../js/tinymce/init-tinymce.js"></script>
+    <script src="../js/select2.js"></script>
     
     <script src="https://unpkg.com/dropzone@5/dist/min/dropzone.min.js"></script>
 

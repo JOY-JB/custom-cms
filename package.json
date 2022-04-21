@@ -1,7 +1,6 @@
 {
-  "name": "Star_admin",
+  "name": "star_admin",
   "version": "1.2.1",
-  "description": "",
   "main": "index.html",
   "dependencies": {
     "@mdi/font": "^3.6.95",
@@ -86,5 +85,15 @@
   "author": "bootstrapdash",
   "url": "http://www.bootstrapdash.com/",
   "copyright": "",
-  "license": ""
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOY-JB/custom-cms.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/JOY-JB/custom-cms/issues"
+  },
+  "homepage": "https://github.com/JOY-JB/custom-cms#readme",
+  "description": ""
 }
